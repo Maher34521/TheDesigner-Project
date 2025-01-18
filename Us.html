@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="shortcut icon" href="iconbaru.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-image: linear-gradient(to right,  rgb(253, 161, 161), rgb(242, 173, 247), rgb(236, 202, 138));
+        }
+
+        .us {
+        border: 5px solid rgba(177, 56, 56, 0.7); 
+            background: linear-gradient(to bottom, #fcb5b7, #fad0c4); 
+            color: #333; 
+            padding: 15px 30px; 
+            font-size: 18px;
+            line-height: 1.8; 
+            font-family: 'Arial', sans-serif; 
+            font-weight: normal; 
+            margin: 0px auto; 
+            box-shadow: 0 4px 8px #e7f5a1; 
+            border-radius: 8px; 
+            text-align: left; 
+            transition: transform 0.4s ease, box-shadow 0.4s ease; 
+            width: 100%;
+        }
+
+        .us:hover {
+            transform: scale(1.01); 
+            box-shadow: 0 6px 8px #ff414d        
+        }
+
+        
+        @media (max-width: 768px){
+            header h1 {
+                padding-left: 50px;
+                
+            }
+        }
+
+
+        @media (max-width: 480px){
+            header h1 {
+                padding-left: 50px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a>
+            <img src="iconbaru.png" alt="My Website Logo" class="IconLogo">
+        </a>
+        <h1 class="site-title">Who are we?</h1>      
+        <nav>
+            <a href="index.html" class="Home">Home</a>
+            <a href="Pricing.html" class="Pricing">Pricing</a>
+            <a href="Contact.html" class="Us">Contact</a>
+            <a href="Us.html" class="Us">Us</a>
+        </nav>
+    </header>
+    <main>
+
+        <div>
+            <div class="us">
+                <h3>About Us</h3>
+                <p>Welcome to our creative and passionate world! We’re a dedicated team that believes design has the power to forge meaningful connections and make a lasting impression.</p>
+            </div> <br>
+    
+            <div class="us">
+                <h4>Our Mission:</h4>
+                <p>To help you showcase your identity, personality, and passions through one-of-a-kind, custom-made designs that truly reflect who you are.</p>
+            </div> <br>
+    
+            <div class="us">
+                <h4>For International Students:</h4>
+                <p>We’re here to help you highlight your cultural identity and share it with the local community. Our designs celebrate where you come from, making it easy for others to recognize and connect with your background.</p>
+            </div> <br>
+    
+            <div class="us">
+                <h4>For Workers and Employers:</h4>
+                <p>Whether you're a professional or an employer, our designs are thoughtfully created to showcase your unique journey. From career-defining symbols to elements that capture your personality, we craft designs that truly reflect who you are.</p>
+            </div> <br>
+    
+            <div class="us">
+                <p>This idea came from a simple realization: many people spend hours searching for clothing that feels personal, only to settle for something generic. With us, that changes. We bring your vision to life by creating designs inspired by your preferences—whether it’s a loved one, a cherished logo, a symbol of your work, a talent you’re proud of, or anything else that matters to you.</p>
+            </div> <br>
+    
+            <div class="us">
+                <p>Your clothing should be more than just what you wear—it should be an extension of who you are. Let’s work together to create something truly extraordinary!</p>
+            </div> 
+        </div>               
+    </main>    
+    <footer>
+        &copy; 2025 The Designer. All Rights Reserved.
+    </footer>
+</body>
+</html>
